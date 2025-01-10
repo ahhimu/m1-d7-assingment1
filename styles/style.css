@@ -1,3 +1,108 @@
 body{
-    background-color: darkgray;
+    background-color: #F1F1F3;
+}
+/* Shared Styles */
+.primary-text-color{
+    color: #006A50;
+}
+
+/* Navigation Start Here */
+.nav-title{
+    font-weight: bold;
+    font-size: 32;
+    color: #0E0E0E;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px 24px;
+    background-color:white;
+
+}
+.nav-btn-singin{
+    border-radius: 8px;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    font-weight: bold;
+    
+}
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Banner Start Here */
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 80px 60px;
+    padding-top: 13px;
+    gap: 64px;
+    
+}
+
+.banner-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #B3B3B3;
+}
+.banner-description{
+    font-size:58px;
+    font-weight:bold;
+    color:#0E0E0E;
+}
+
+.banner-btn{
+    background-color: #006A50;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+}
+
+/* Banner End Here */
+
+/* Main Pillars Start Here */
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:#F1F1F3;
+}
+
+/* Main Pillars Start Here */
+.main-pillar-title{
+    font-size: 40px;
+    font-weight:bold;
+    color: #0E0E0E;
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+
+.pillar-section{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:center;
+    gap: 24px;
+    padding: 24px;
+    /* border-radius:16px; */
+}
+
+.pillar{
+    background-color: white;
+    border-radius: 16px;
+}
+
+.pillar-title{
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+}
+.pillar-description{
+    text-align:justify;
+    padding: 24px;
 }
