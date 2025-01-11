@@ -36,6 +36,12 @@ body{
     border: none;
     padding: 17px 34px;
 }
+.banner-btn:hover{
+    background-color:red;
+    color: green;
+    cursor: pointer;
+}
+
 .vision-btn1{
     background-color: #5490F5;
     color: #FFFFFF;
@@ -43,8 +49,12 @@ body{
     font-size: 16px;
     font-weight: 700;
     margin-top: 24px;
-
 }
+.vision-btn1:hover{
+    background-color: darkviolet;
+    cursor: pointer;
+}
+
 .vision-btn2{
     background-color: #09A15C;
     color: #FFFFFF;
@@ -54,6 +64,11 @@ body{
     margin-top: 24px;
 
 }
+.vision-btn2:hover{
+    background-color: darkviolet;
+    cursor: pointer;
+}
+
 .vision-btn3{
     background-color: #FFC239;
     color: #FFFFFF;
@@ -61,9 +76,11 @@ body{
     font-size: 16px;
     font-weight: 700;
     margin-top: 24px;
-
-
 } 
+.vision-btn3:hover{
+    background-color: darkviolet;
+    cursor: pointer;
+}
 
 
 .vision-btn1, .vision-btn2, .vision-btn3{
@@ -81,6 +98,10 @@ body{
     padding: 13px 26px;
 
 }
+.news-btn:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
 
 .donatenow-btn{
     background-color: #006A50;
@@ -91,7 +112,11 @@ body{
     margin-top: 32px;
     font-size:18px ;
     font-weight:400;
-
+}
+.donatenow-btn:hover{
+background-color: red;
+color: #006A50;
+cursor: pointer;
 }
 .btn{
     text-align: center;
@@ -108,7 +133,11 @@ body{
 
    
 }
-
+.subscribbtn:hover{
+    background-color:red;
+    color: #006A50;
+    cursor: pointer;
+}
 
 /* Navigation Start Here */
 .nav-title{
@@ -128,8 +157,13 @@ body{
     border-radius: 8px;
     padding: 15px 30px;
     border: 2px solid #006A50;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+.nav-btn-singin:hover{
+    background-color: #006A50;
+    color: red;
+    cursor: pointer;
+
 }
 header{
     max-width: 1280px;
@@ -344,13 +378,16 @@ main{
     background-color: #81B4FC;
 }
 .put-ammount{
-
-    margin-left:25px;
+margin: 0 auto;
+    /* margin-left:25px; */
     
 
 }
 .put-ammount input[type="text"] {
-padding: 20px 380px;
+padding: 20px;
+width: 100%;
+/* align-items: center; */
+/* text-align: center; */
 border: none;
 margin-top: 32px;
 color: rgb(255, 255, 255);
@@ -432,4 +469,9 @@ padding-bottom: 50px;
 }
 hr{
    width: 1122px;
+}
+
+.inamount:hover{
+background-color: #09A15C;
+cursor: pointer;
 }
