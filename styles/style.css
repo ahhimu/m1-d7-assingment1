@@ -23,8 +23,7 @@ body{
     color:rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 500;
-    /* padding-top: 12px; */
-    /* padding-bottom: 24px; */
+
 }
 
 
@@ -72,8 +71,43 @@ body{
     border: none;
 
 }
+.news-btn{
+    background-color:#006A50 ;
+    color:#FFFFFF ;
+    font-size:18px ;
+    font-weight:400;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
 
+}
 
+.donatenow-btn{
+    background-color: #006A50;
+    border-radius:8px;
+    border: none;
+    padding: 17px 34px;
+    color: white;
+    margin-top: 32px;
+    font-size:18px ;
+    font-weight:400;
+
+}
+.btn{
+    text-align: center;
+}
+.subscribbtn{
+    background-color: #006A50;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    font-size:18px ;
+    font-weight:400;
+
+   
+}
 
 
 /* Navigation Start Here */
@@ -87,7 +121,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 24px 160px 24px;
-    background-color:white;
+    background-color:#F1F1F3;
 
 }
 .nav-btn-singin{
@@ -142,11 +176,9 @@ main{
 
 .pillar-section{
     display: flex;
-    /* justify-content: space-between; */
     align-items:center;
     gap: 24px;
     padding: 24px;
-    /* border-radius:16px; */
 }
 
 .pillar{
@@ -170,9 +202,7 @@ main{
     display: flex;
     gap: 24px;
     min-width: 410px;
-    /* border-radius:16px; */
-    /* border: 2px solid black; */
-    
+
 }
 
 .vision1{
@@ -190,4 +220,216 @@ main{
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 24px 32px;
+}
+
+.speach-container{
+    background-image: url('/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 80px;
+ 
+
+
+   
+}
+.speaches{
+     /* padding: 48px 24px;  */
+     padding-top: 25px;
+     padding-left:20px;
+     max-width: 1232px;
+     justify-content: flex-start;
+} 
+.speach-main{
+    flex-direction: column;
+}
+
+.name{
+    padding-left: 20px;
+
+}
+
+.main-name{
+    font-size:20px;
+    font-weight:600;
+    color:rgba(14, 14, 14, 0.8);
+    padding-top: 12px;
+}
+.position{
+    color:rgba(14, 14, 14, 0.6);
+    font-size:16px;
+    font-weight:400;
+}
+/* News Styls Start */
+.news{
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.news-description{
+   color:RGB(54, 56, 80);
+   font-size: 16px;
+   font-weight: 400;
+}
+.news-container1{
+    display: flex;
+    background-color:white;
+    border-radius: 24px;
+    gap: 32px;
+    padding: 48px;
+    margin-top: 32px;
+
+}
+
+.news-image{
+    border-radius: 20px;
+
+
+}
+
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.news-details{
+    font-size:16px;
+    font-weight: 400;
+    color: RGB(54, 56, 80);
+
+}
+/* News Styles End */
+.donation{
+    /* padding: 105px; */
+    margin-top: 80px;
+
+}
+
+.heading{
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.heading-description{
+    text-align:center;
+    color: RGB(54, 56, 80);;
+    font-size:16px ;
+    font-weight:400;
+    max-width: 1104px;
+}
+
+.amount{
+    display: flex;
+    gap: 24px;
+    /* max-width: 1070px; */
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.inamount{
+    background-color: white;
+    border-radius: 15px;
+    /* text-align: center; */
+    padding: 40px;
+}
+.donate-text{
+    font-size:40px ;
+    font-weight:bold;
+    /* padding: 40px; */
+}
+.special{
+    background-color: #81B4FC;
+}
+.put-ammount{
+
+    margin-left:25px;
+    
+
+}
+.put-ammount input[type="text"] {
+padding: 20px 380px;
+border: none;
+margin-top: 32px;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+}
+.subscrib-section{
+    background-color: #C6E4D6;
+    text-align:center;
+    border-radius: 24px;
+
+.subscribe-title{
+    font-size:40px;
+    font-weight:bold;
+    color:black;
+    padding-top: 80px;
+
+    }
+}
+.subscrib-input-field{
+    display: flex;
+    text-align: center;
+    border: none;
+    /* align-items: center; */
+    justify-content: center;
+    
+
+}
+
+.input-email input[type="email"]{
+border: none;
+padding: 17px 34px;
+color: white;
+font-size:18px ;
+font-weight:400;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+padding-right: 403px;
+}
+
+/* padding: 17px 34px;
+color: white;
+margin-top: 32px; */
+
+.promised{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 80px;
+    color:RGB(54, 56, 80);
+}
+.subscribe-description{
+    font-size:16px;
+    font-weight:400;
+    color:RGB(54, 56, 80);
+/* padding: 16px 64px 24px 64px; */
+    /* justify-content: center; */
+}
+
+footer{
+    background-color: white;
+    margin: 0px;
+    max-width: 1600px;
+    margin-top: 80px;
+}
+.footer-title{
+    text-align: center;
+    /* margin: 50px; */
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+.footer-down{
+display: flex;
+gap: 23px;
+justify-content: center;
+padding-top: 32px;
+padding-bottom: 50px;
+}
+hr{
+   width: 1122px;
 }
